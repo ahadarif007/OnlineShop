@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<address>
+	<ofc type="Head_office">
+		<area>Banani,kamal attaruk avenue</area>
+		<city>Dhaka</city>
+		<zip>1213</zip>
+	</ofc>
+	<ofc type="office">
+		<area>25/A,were street, wari</area>
+		<city>Dhaka</city>
+		<zip>1225</zip>
+	</ofc>
+</address>

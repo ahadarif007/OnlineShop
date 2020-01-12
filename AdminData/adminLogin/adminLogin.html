@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+    <head>
+
+        <title>LogIn</title>
+		    <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+	
+	    <script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+
+        
+    </script>
+        <style>
+        input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 15%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+        </style>
+    </head>
+    <body>
+            <form action="adminLogin.php" method="post">
+                <hr>
+                    <h1 align="center">Admin Login Form</h1>
+                    <hr>
+                    admin ID(email) :<br/>
+                    <input value="" type="text" name="email" class="tooltip" title="enter your email" /><br>
+                    Password  : <br/>
+                    <input type="password" name="pass" class="tooltip" title="enter your password" /><br>
+                    <br>
+                    <input type="submit" name="submit" value="Login" /><br>
+                    </form>
+    </body>
+</html>
+
